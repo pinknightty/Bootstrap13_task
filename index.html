@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user scalable=no">
+    <title>Exercicio Bootstrap_adv</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+
+    <style>
+
+        .carousel {
+            padding-top: 16px;
+        }
+
+        .row {
+            padding-top: 16px;
+        }
+
+        #horse-font {
+            color: black;
+        }
+
+        #mac-font {
+            color:yellowgreen;
+            font-weight: bolder;           
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="carousel carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/09/04/10/29/couple-8232473_1280.jpg" />
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Casal se beijando na praia</h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/11/21/00/11/giraffe-8402122_1280.jpg" />
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Textura de pelo de Girafa</h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/11/09/15/04/tomato-8377608_1280.jpg" />
+                    <div id="mac-font" class="carousel-caption d-none d-sm-block">
+                        <h5>Macarrão com molho de tomate</h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/11/26/20/58/horse-8414296_1280.jpg" />
+                    <div id="horse-font" class="carousel-caption d-none d-sm-block ">
+                        <h5>Cavalo em ambiente nevado</h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/11/17/22/49/duck-8395154_1280.jpg" />
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Patinho fofo</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                            Meme card number one
+                    </div>
+                    <img src="https://i.kym-cdn.com/entries/icons/original/000/018/012/this_is_fine.jpeg" />
+                    <div class="card-body">
+                        <h4 class="card-title">This is fine</h4>
+                        <h5 class="card-subtitle">Isn' it?</h5> 
+                        <p class="card-text">ded</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                            Meme card number two
+                    </div>
+                    <img src="https://m.media-amazon.com/images/I/51w7koDjFsL._AC_.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Você foi premiado</h4>
+                        <h5 class="card-subtitle">Mentira, não foi</h5> 
+                        <p class="card-text">Ou será que foi?</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                            Meme card number three
+                    </div>
+                    <img src="https://museudememes.com.br/wp-content/uploads/2021/06/Ah-shit-here-we-go-again-1.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Oh shit, here we go again.</h4>
+                        <h5 class="card-subtitle">Master CJ from GTA San Andreas</h5> 
+                        <p class="card-text">Not so master anyway</p>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
